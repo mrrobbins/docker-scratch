@@ -2,6 +2,7 @@
 # Dockerize
 
 Build:
-`docker build -t docker-web .`
+`docker build -t docker-spring-boot-demo .`
+
 Run:
-`docker run -p 9000:8080 -it docker-web`
+`docker run -p 8080:8080 -it docker-spring-boot-demo`
